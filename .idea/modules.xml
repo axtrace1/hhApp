@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/hhres/hhres.iml" filepath="$PROJECT_DIR$/hhres/hhres.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hhresProject.iml" filepath="$PROJECT_DIR$/hhresProject.iml" />
+    </modules>
+  </component>
+</project>
+
