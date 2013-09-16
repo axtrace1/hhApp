@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Резюме</string>
+    <string name="action_settings">Настройки</string>
+
+    <string name="fieldHintFio">Фамилия Имя Отчество</string>
+    <string name="fieldHintFio2">ФИО:</string>
+
+    <string name="fieldHintBdate">Дата рождения</string>
+    <string name="fieldHintBdate2">Дата рождения:</string>
+
+    <string name="fieldHintSex">Пол</string>
+    <string name="fieldHintSex2">Пол:</string>
+
+    <string name="listValueMan">Мужской</string>
+    <string name="listValuewoman">Женский</string>
+
+    <string name="fieldHintRank">Должность</string>
+    <string name="fieldHintRank2">Должность:</string>
+
+    <string name="fieldHintSalary">Зарплата</string>
+    <string name="fieldHintSalary2">Зарплата:</string>
+
+    <string name="fieldHintPhone">Номер телефона</string>
+    <string name="fieldHintPhone2">Номер телефона:</string>
+
+    <string name="fieldHintEmail">E-mail</string>
+    <string name="fieldHintEmail2">E-mail:</string>
+    <string name="fieldPretextEmail">\@</string>
+
+    <string name="buttonSendText">Отправить</string>
+
+    <string name="sendheader">Ответное сообщение:</string>
+    <string name="enterAnswerText">Введите текст ответа</string>
+    <string name="buttonSendText2">Отправить ответ</string>
+
+</resources>

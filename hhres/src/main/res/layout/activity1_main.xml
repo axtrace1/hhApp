@@ -1,0 +1,86 @@
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    style="@android:style/Theme">
+
+    <EditText
+        android:layout_marginTop="8dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapWords"
+        android:hint="@string/fieldHintFio"
+        android:ems="20"
+        android:id="@+id/IDFio"/>
+
+    <ru.axtrace.hhres.DateDisplayPicker
+        android:id="@+id/IDPickerBirthDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/fieldHintBdate"
+        style="@android:style/Widget.EditText"
+        android:textStyle="normal"
+        android:layout_marginTop="8dp"
+        android:textSize="20dp"/>
+
+
+    <Spinner
+        android:id="@+id/IDspinnerSex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/fieldHintSex"
+        android:layout_marginTop="8dp"
+        style="@android:style/Widget.EditText">
+
+    </Spinner>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/IDRank"
+        android:hint="@string/fieldHintRank"
+        android:ems="12"
+        android:layout_marginTop="8dp"
+        android:inputType=
+            "textCapSentences|textAutoCorrect"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="@string/fieldHintSalary"
+        android:ems="12"
+        android:layout_marginTop="8dp"
+        android:id="@+id/IDSalary" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="12"
+        android:id="@+id/IDPhone"
+        android:layout_marginTop="8dp"
+        android:hint="@string/fieldHintPhone"/>
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="12"
+        android:id="@+id/IDEmail"
+        android:text="@string/fieldPretextEmail"
+        android:layout_marginTop="8dp"
+        android:hint="@string/fieldHintEmail"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonSendText"
+        android:id="@+id/IDButtonSend"
+        android:layout_marginTop="8dp"
+        android:onClick="onSendButtonClick"
+        style="@style/AppBaseTheme" />
+
+</LinearLayout>
